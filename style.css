@@ -9,7 +9,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 100vmin;
+  min-height: 100vh;
   background-color: #A2999E;
 }
 
@@ -64,6 +64,7 @@ form input {
   width: 6rem;
   border-radius: 0.5rem;
   border: 1px solid #C6C7C4;
+  padding: 5px;
 }
 
 .select-container select {
@@ -81,4 +82,12 @@ form button {
   color: #C6C7C4;
   font-size: 1.15rem;
   cursor: pointer;
+}
+
+@media(max-height:1000px){
+  body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 }
